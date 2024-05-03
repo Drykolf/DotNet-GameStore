@@ -1,0 +1,34 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET http://localhost:5089/games
+
+###
+
+GET http://localhost:5089/games/2
+
+###
+
+POST http://localhost:5089/games
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "genre": "Sandbox",
+  "price": 19.99,
+  "releaseDate": "2011-11-18"
+}
+
+###
+
+PUT http://localhost:5089/games/2
+Content-Type: application/json
+
+{
+  "name": "Cyberpunk 2077",
+  "genre": "RPG",
+  "price": 39.99,
+  "releaseDate": "2020-12-10"
+}
+
+###
+
+DELETE http://localhost:5089/games/3
