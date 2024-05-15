@@ -11,11 +11,11 @@ POST http://localhost:5089/games
 Content-Type: application/json
 
 {
-  "name": "Minecraft",
-  "genre": "Sandbox",
-  "price": 19.99,
-  "releaseDate": "2011-11-18"
-}
+  "name": "Cyberpunk 2077",
+  "genreId": 2,
+  "price": 39.99,
+  "releaseDate": "2020-12-10"
+} 
 
 ###
 
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 {
   "name": "Cyberpunk 2077",
-  "genre": "RPG",
+  "genreId": 2,
   "price": 39.99,
   "releaseDate": "2020-12-10"
 }
